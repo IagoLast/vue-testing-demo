@@ -11,6 +11,9 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6",
     "vue": "^3.2.36"
   },
   "devDependencies": {
@@ -37,6 +40,7 @@
     "ts-jest": "^27.1.5",
     "typescript": "~4.7.2",
     "vite": "^2.9.9",
-    "vue-tsc": "^0.35.2"
+    "vue-tsc": "^0.35.2",
+    "whatwg-fetch": "^3.6.2"
   }
 }
